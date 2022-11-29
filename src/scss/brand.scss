@@ -1,0 +1,71 @@
+.brand{
+    position: relative;
+    height: 100vh;
+    background: url('../assets/brand/background.svg') no-repeat center;
+    background-size: cover;
+    &__title{
+        transform: translateY(182px);
+        font-style: normal;
+        text-align: center;
+        text-transform: uppercase;
+        color: #EAE9E8;
+        z-index: 3;
+        &-p1{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height:40px;
+            letter-spacing: 0.045em;
+            text-transform: uppercase;
+        }
+        &-h2{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60.55px;
+            letter-spacing: 0.045em;
+            text-transform: uppercase;
+        }
+        &-p2{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 35px;
+            text-align: center;
+            letter-spacing: 0.045em;
+            text-transform: uppercase;
+        }
+    }
+    &__namber{
+        transform: translateY(500px);
+        padding-left: 650px;
+
+        &-ul{
+            display: flex;
+            column-gap: 51px;
+        &-li1{
+            font-family: 'Tajawal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 17px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #EAE9E8;
+        }
+        &-li{
+            font-family: 'Tajawal';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #EAE9E8;
+            opacity: 0.6;
+        }
+
+    }
+    }
+   
+}

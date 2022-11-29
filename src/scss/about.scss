@@ -1,0 +1,40 @@
+.about{
+    background-color: #254A5A;
+    padding: 40px 0;
+    margin-bottom: 170px;
+    height: 500px;
+    &__component{
+        display: flex;
+    }
+    &__left{
+        padding: 132px 0;
+        padding-left: 200px;
+    }
+    &__title{
+        font-family: 'Cormorant Garamond';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #EAE9E8;
+    }
+    &__p{
+        padding-top: 20px;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        width: 490px;
+        
+    }
+    &__right{
+        padding-left: 76px;
+        width: 474px;
+        height: 543px;
+        
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "header": {
+        "link1": "Женщины",
+        "link2": "Мужчины",
+        "link3": "О нас",
+        "link4": "поиск"
+    },
+    "brand": {
+        "title": "Бренд",
+        "subtitle": "Смотреть коллекцию"
+    },
+    "arrival": {
+        "leftTitle": "Новое поступление",
+        "leftDescryption": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip",
+        "leftLink": "Смотреть колекцию",
+        "rightDescryption": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip"
+    },
+    "popular": {
+        "title": "Популярное",
+        "cardTitle": "Replay",
+        "cardDescryption": "Классическая обувь",
+        "cardPrice": "3800uan",
+        "cardOldprice": "6100uan"
+        
+    },
+    "about" : {
+        "title": "О нас",
+        "descryption": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLoreLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumipLorem ipsumLoremLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem"
+    }
+}

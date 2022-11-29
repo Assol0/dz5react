@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, Suspense } from "react";
+import '../src/scss/style.scss'
+import Home from "./pages/Home/Home";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Layout/Layout";
+import About from "./pages/Home/About";
+import Catalog from "./pages/Catalog/Catalog";
+import Custom from "./pages/Custom/Custom";
+import NotFound from "./pages/NotFound/NotFound";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Suspense fallback={"...loading"}>
+    <Routes>
+      <Route path="/" element={<Layout/>}>
+        <Route path="" element={<Home/>}/>
+        <Route path="about" element={<About/>}/>
+        <Route path="catalog" element={<Catalog/>}/>
+        <Route path="*" element={<NotFound/>}/>
+      </Route>
+      <Route path="custom" element={<Custom/>}/>
+    </Routes>
+    </Suspense>
   );
 }
 

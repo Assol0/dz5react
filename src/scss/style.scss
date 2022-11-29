@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Cormorant', serif;
+}
+
+
+.container{
+    max-width: 1374px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.contaainer-small{
+    max-width: 1137px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@import 'header';
+@import 'brand';
+@import 'arrival';
+@import 'popular';
+@import 'about';
+@import 'footer'

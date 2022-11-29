@@ -1,0 +1,30 @@
+{
+    "header": {
+        "link1": "Цomen",
+        "link2": "Men",
+        "link3": "About us",
+        "link4": "search"
+    },
+    "brand": {
+        "title": "Brand",
+        "subtitle": "View collection"
+    },
+    "arrival": {
+        "leftTitle": "New arrival",
+        "leftDescryption": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip",
+        "leftLink": "View collection",
+        "rightDescryption": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ip"
+    },
+    "popular": {
+        "title": "Popular",
+        "cardTitle": "Replay",
+        "cardDescryption": "Classic shoes",
+        "cardPrice": "3800uan",
+        "cardOldprice": "6100uan"
+        
+    },
+    "about" : {
+        "title": "About us",
+        "descryption": "Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLoreLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumipLorem ipsumLoremLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipLorem ipsumLorem ipsumLorem ipsumLorem"
+    }
+}
