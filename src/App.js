@@ -7,6 +7,7 @@ import About from "./pages/Home/About";
 import Catalog from "./pages/Catalog/Catalog";
 import Custom from "./pages/Custom/Custom";
 import NotFound from "./pages/NotFound/NotFound";
+import './i18n'
 
 
 function App() {
