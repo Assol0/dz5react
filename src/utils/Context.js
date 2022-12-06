@@ -9,6 +9,7 @@ const Context = (props) => {
     const[gender, setGender] = useState('women')
     const [category, setCategory] = useState('shoes')
     const [products, setProducts] = useState({data: [], error: ''})
+    const [price, setPrice] = useState('')
 
     const changeGender = (value) =>{
         setGender(value)
@@ -17,7 +18,7 @@ const Context = (props) => {
         setCategory(value)
     }
     const getProducts = ()=>{
-        axios('http://localhost:4444/catalog')
+        axios(`http://localhost:4444/catalog/?gender=${gender}&category=${category}${price !== '' ? '&_sort=price&_order' + price : ''}`)
         .then(({data}) => setProducts({...products , data: data}))
         .catch((error) => setProducts({...products, error: error}))
     }
@@ -27,9 +28,12 @@ const Context = (props) => {
         gender,
         category,
         products,
+        price,
         changeGender,
         changeCategory,
-        getProducts
+        getProducts,
+        setProducts,
+        setPrice
     }
 
     return <CustomContext.Provider value={value}>

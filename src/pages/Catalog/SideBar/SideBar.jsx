@@ -8,8 +8,8 @@ const SideBar = () => {
   return (
     <aside className='sideBar'>
         <div className="sideBar__lang">
-            <p onClick={() => changeGender('women') } className={`sideBar__lang-item ${gender === 'women' ? 'active' : ''}`}>Женщины</p>
-            <p onClick={() => changeGender('men') } className={`sideBar__lang-item ${gender === 'men' ? 'active' : ''}`}>Мужчины</p>
+            <p onClick={() => changeGender('woman') } className={`sideBar__lang-item ${gender === 'woman' ? 'active' : ''}`}>Женщины</p>
+            <p onClick={() => changeGender('man') } className={`sideBar__lang-item ${gender === 'men' ? 'active' : ''}`}>Мужчины</p>
         </div>
         <ul className='sideBar__menu'>
           <SideBaritem value={'t-short'} text='Футболки'/>

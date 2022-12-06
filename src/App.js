@@ -8,21 +8,27 @@ import Catalog from "./pages/Catalog/Catalog";
 import Custom from "./pages/Custom/Custom";
 import NotFound from "./pages/NotFound/NotFound";
 import './i18n'
+import Question from "./pages/Question/Question";
 
 
 function App() {
   return (
+
+
     <Suspense fallback={"...loading"}>
     <Routes>
       <Route path="/" element={<Layout/>}>
         <Route path="" element={<Home/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="catalog" element={<Catalog/>}/>
+        <Route path="question" element={<Question/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Route>
       <Route path="custom" element={<Custom/>}/>
+      
     </Routes>
     </Suspense>
+    
   );
 }
 
